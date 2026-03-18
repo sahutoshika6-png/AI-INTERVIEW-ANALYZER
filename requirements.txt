@@ -1,0 +1,21 @@
+# ============================================================
+# requirements.txt — AI Interview Analyzer
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# ============================================================
+
+# Speech recognition (converts audio to text via Google API)
+SpeechRecognition==3.10.4
+
+# Text-to-speech (reads questions aloud)
+pyttsx3==2.90
+
+# Computer vision (webcam + face detection)
+opencv-python==4.9.0.80
+
+# PyAudio — required by SpeechRecognition for microphone access
+# (See installation notes below if this fails)
+PyAudio==0.2.14
+
+# NumPy — used by OpenCV internally
+numpy==1.26.4
